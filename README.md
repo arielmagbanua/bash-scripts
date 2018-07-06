@@ -7,7 +7,8 @@ My collection of bash scripts and aliases for automating server commands.
 ## Sample Aliases
 ``alias tlr-setup="cd /ebs/www/laravel-project/ && sudo chown -R user setup.unix.sh && sudo chmod -R 777 setup.unix.sh && ./setup.unix.sh user lr-worker:*"``
 
-## [Rewrite Git History]: (https://help.github.com/articles/changing-author-info/)
+## Rewrite Git History
+Full details [here](https://help.github.com/articles/changing-author-info/).
 * Create a fresh, bare clone of your repository:
 	```
 	git clone --bare https://github.com/user/repo.git 
